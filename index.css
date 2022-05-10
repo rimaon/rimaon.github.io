@@ -1,0 +1,528 @@
+@charset "UTF-8";
+
+/*  pc */
+
+a {
+    color: #fff;
+}
+header {
+    background: none;
+    text-shadow: 0 0 0.3vw rgba(0, 0, 0, 0.5);
+}
+
+.sidenav {
+    text-shadow: none;
+}
+
+/* swiper */
+
+#fullpage .mainSlide {
+    width: 100%;
+    height: 100%;
+}
+
+#fullpage .mainSlide .img1 {
+    background: url("images/bg01.jpg") no-repeat center / cover;
+}
+#fullpage .mainSlide .img2 {
+    background: url("images/bg02.jpg") no-repeat center / cover;
+}
+
+/* pagination */
+
+#fullpage .swiper-pagination-bullet {
+    display: none;
+}
+#fullpage .swiper-button-next,
+#fullpage .swiper-button-prev {
+    display: none;
+}
+
+/* box1 */
+
+#fullpage .box1 {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+#fullpage .box1 a {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: 75%;
+    left: 40%;
+}
+
+/* box2 */
+
+/* bg */
+.hero {
+    background-color: #000;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.snow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.snow .svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#snow-top-layer {
+    will-change: transform;
+    transform: translateY(-768px);
+    animation: fall 25s infinite linear;
+}
+
+#snow-bottom-layer {
+    will-change: transform;
+    transform: translateY(-768px);
+    animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+#fullpage .effect {
+    position: absolute;
+
+}
+
+#fullpage .effect circle {
+    fill: rgb(199, 208, 218);
+    box-shadow: 0 0 5vw rgba(255, 255, 255, 0.5);
+}
+
+#fullpage .efc1   {
+    top: 18%;
+    left: 90%;
+    /* background-image: linear-gradient(rgb(255, 160, 96), rgb(255, 118, 118)); */
+    width: 4%;
+    height: 8%;
+}
+
+#fullpage .efc2  {
+    top: 68%;
+    left: 70%;
+    /* background-image: linear-gradient(rgb(176, 255, 130), rgb(133, 210, 255)); */
+    width: 6%;
+    height: 12%;
+}
+#fullpage .efc3  {
+    top: 20%;
+    left: 20%;
+    /* background-image: linear-gradient(rgb(79, 132, 211), rgb(171, 119, 255)); */
+    width: 7%;
+    height: 14%;
+}
+#fullpage .efc4  {
+    top: 70%;
+    left: 8%;
+    /* background-image: linear-gradient(rgb(198, 74, 255), rgb(255, 126, 201)); */
+    width: 5%;
+    height: 10%;
+}
+#fullpage .efc5  {
+    top: 54%;
+    left: 42%;
+    /* background-image: linear-gradient(rgb(255, 222, 74), rgb(195, 255, 126)); */
+    width: 2%;
+    height: 4%;
+}
+
+/* box2 */
+#fullpage .box2 {
+    background-color: #000;
+    position: relative;
+}
+
+#fullpage .box2 .intro p {
+    width: 50%;
+    line-height: 2;
+    font-size: 2vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#fullpage .box2 .intro a {
+    font-size: 1.4vw;
+    font-weight: bold;
+    padding: 1vw 3vw;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+    border: 1px solid #fff;
+}
+#fullpage .box2 .intro a:hover {
+    background-color: white;
+    color: #000;
+}
+
+/* box3 */
+
+#fullpage .box3 .work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* work .box */
+#fullpage .box3 .work .box {
+    width: 25vw;
+    height: 50vh;
+    background-color: #ddd;
+    position: relative;
+    transition: all 0.5s;
+}
+#fullpage .box3 .work .box:hover {
+    background-size: 210%;
+}
+#fullpage .box3 .work .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6vw;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* text */
+#fullpage .box3 .work .box .text {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#fullpage .box3 .work .box .text:hover {
+    opacity: 1;
+}
+
+/* work .box1 */
+#fullpage .box3 .work .box1 {
+    background: url("images/kimgaeul/cells.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* work .box2 */
+#fullpage .box3 .work .box2 {
+    background: url("images/kimgaeul/lump.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* work .box3 */
+#fullpage .box3 .work .box3 {
+    background: url("images/kimgaeul/Manipulation.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* work .box4 */
+#fullpage .box3 .work .box4 {
+    background: url("images/kimgaeul/Shore.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* work .box5 */
+#fullpage .box3 .work .box5 {
+    background: url("images/kimgaeul/us.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* work .box6 */
+#fullpage .box3 .work .box6 {
+    background: url("images/kimeunji/Aperture\,Interval.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* work .box7 */
+#fullpage .box3 .work .box7 {
+    background: url("images/kimeunji/Crowd.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* work .box8 */
+#fullpage .box3 .work .box8 {
+    background: url("images/kimeunji/Crowd-2.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+/* box4 */
+
+#fullpage .box4 {
+    position: relative;
+}
+
+/* artist */
+#fullpage .box4 .artist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* artist .box */
+#fullpage .box4 .artist .box {
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    transition: all 0.3s;
+}
+#fullpage .box4 .artist .box:hover {
+    background-size: 110%;
+}
+#fullpage .box4 .artist .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6vw;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* text */
+#fullpage .box4 .artist .box .text {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#fullpage .box4 .artist .box .text:hover {
+    opacity: 1;
+}
+
+/* artist .box1 */
+#fullpage .box4 .artist .box1 {
+    background: url("images/kimgaeul/profile.jpg") no-repeat center 30% / cover;
+    background-size: 100%;
+}
+
+/* artist .box2 */
+#fullpage .box4 .artist .box2 {
+    background: url("images/kimseulgi/profile.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+
+/* artist .box3 */
+#fullpage .box4 .artist .box3 {
+    background: url("images/kimeunji/profile.jpg") no-repeat center / cover;
+    background-size: 180%;
+}
+#fullpage .box4 .artist .box3:hover {
+    background-size: 190%;
+}
+
+/* artist .box4 */
+#fullpage .box4 .artist .box4 {
+    background: url("images/shimmihye/profile.jpg") no-repeat center 40% / cover;
+    background-size: 100%;
+}
+
+/* artist .box5 */
+#fullpage .box4 .artist .box5 {
+    background: url("images/leejiyoung/profile.jpg") no-repeat center 30% / cover;
+    background-size: 100%;
+}
+
+/* artist .box6 */
+#fullpage .box4 .artist .box6 {
+    background: url("images/leehanna/profile.jpg") no-repeat center / cover;
+    background-size: 100%;
+}
+
+/* box7 */
+#fullpage .box4 .artist .box7 {
+    width: 50vw;
+    color: #000;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+#fullpage .box4 .artist .box7:hover {
+    background-color: #000;
+    color: #fff;
+}
+#fullpage .box4 .artist .box7 p {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* footer */
+#fullpage footer {
+    margin: 0;
+}
+#fullpage footer a {
+    color: #000;
+    transition: all 0.3s;
+}
+#fullpage footer a:hover {
+    color: #555;
+}
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+
+    /* mainSlide */
+    #fullpage .mainSlide .img1 {
+        background: url("images/bg01_t.jpg") no-repeat center / cover;
+    }
+    #fullpage .mainSlide .img2 {
+        background: url("images/bg02_t.jpg") no-repeat center / cover;
+    }
+
+    /* menu */
+    #menu img {
+        width: 5.4vw;
+        transition: all 1s;
+    }
+
+    /* box1 */
+    #fullpage .box1 a {
+        width: 30%;
+        height: 15%;
+        top: 65%;
+        left: 37%;
+    }
+
+    /* box2 */
+    #fullpage .box2 .intro p {
+        width: 60%;
+        line-height: 2;
+        font-size: 2.8vw;
+        top: 40%;
+    }
+    #fullpage .box2 .intro a {
+        font-size: 2vw;
+        padding: 2vw 4vw;
+        top: 60%;
+    }
+
+    /* box3 */
+    #fullpage .box3 .work .box {
+        width: 50vw;
+        height: 25vh;
+    }
+    #fullpage .box3 .work .box span {
+        font-size: 3vw;
+    }
+
+    /* box4 */
+    #fullpage .box4 .artist .box {
+        width: 50vw;
+        height: 50vh;
+        background-size: 110%;
+    }
+    #fullpage .box4 .artist .box:hover {
+        background-size: 120%;
+    }
+    #fullpage .box4 .artist .box span {
+        font-size: 3vw;
+    }
+
+    #fullpage .box4 .artist .box3 {
+        background-size: 310%;
+    }
+    #fullpage .box4 .artist .box3:hover {
+        background-size: 320%;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:700px) {
+
+    /* mainSlide */
+    #fullpage .mainSlide .img1 {
+        background: url("images/bg01_m.jpg") no-repeat center / cover;
+    }
+    #fullpage .mainSlide .img2 {
+        background: url("images/bg02_m.jpg") no-repeat center / cover;
+    }
+
+    /* menu */
+    #menu img {
+        width: 7vw;
+    }
+
+    /* footer */
+    footer .footer_menu {
+        margin-top: 20vw;
+    }
+
+    /* box1 */
+    #fullpage .box1 a {
+        width: 40%;
+        height: 15%;
+        top: 60%;
+        left: 30%;
+    }
+
+    /* box2 */
+    #fullpage .box2 .intro p {
+        width: 55%;
+        line-height: 2;
+        font-size: 4.6vw;
+        letter-spacing: 0.2vw;
+        top: 38%;
+    }
+    #fullpage .box2 .intro a {
+        font-size: 4vw;
+        padding: 3.8vw 5vw;
+        top: 66%;
+    }
+
+    /* box3 */
+    #fullpage .box3 .work .box {
+        width: 50vw;
+        height: 25vh;
+    }
+    #fullpage .box3 .work .box span {
+        font-size: 3vw;
+    }
+
+    /* box4 */
+    #fullpage .box4 .artist .box {
+        width: 100vw;
+        height: 25vh;
+    }
+    #fullpage .box4 .artist .box span {
+        font-size: 3vw;
+    }
+
+    #fullpage .box4 .artist .box3 {
+        background-size: 150%;
+    }
+    #fullpage .box4 .artist .box3:hover {
+        background-size: 160%;
+    }
+}

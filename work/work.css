@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    margin: 6vw 7vw 0;
+    text-align: left;
+}
+
+main h2 {
+    margin: 0 0 7vw;
+    margin-left: 1vw;
+    font-size: 1.6vw;
+}
+
+main p {
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin: 0.8vw 0 0.6vw;
+    display: inline-block;
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0.8vw;
+}
+
+main span {
+    font-size: 0.8vw;
+    display: inline-block;
+    color: #555;
+    padding-left: 0.8vw;
+    padding-bottom: 0.8vw;
+}
+
+main .artwork {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .artwork > a {
+    width: 15.2vw;
+    transition: all 0.3s;
+    margin: 0 1vw;
+    outline: rgba(0, 0, 0, 0.1) 1px solid;
+    position: relative;
+    margin-bottom: 3vw;
+}
+
+main .artwork > a:hover {
+    box-shadow: 0 0 1.6vw hsla(0, 0%, 0%, 0.3);
+    outline: none;
+}
+
+main .box {
+    height: 18vw;
+    transition: all 0.3s;
+}
+
+main a img {
+    width: 1.4vw;
+    vertical-align: middle;
+    padding-bottom: 0.2vw;
+    padding-right: 0.4vw;
+    top: 0;
+    left: 0;
+}
+
+
+main .artist1 .box1 {
+    background: url("../images/kimgaeul/circulation.jpg") no-repeat center / cover;
+    background-size: 250%;
+}
+main .artist1 .box2 {
+    background: url("../images/kimgaeul/pearls.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box3 {
+    background: url("../images/kimgaeul/respiration.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box4 {
+    background: url("../images/kimgaeul/win-win.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box5 {
+    background: url("../images/kimgaeul/electrodeposition.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box6 {
+    background: url("../images/kimgaeul/cells.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box7 {
+    background: url("../images/kimgaeul/lump.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box8 {
+    background: url("../images/kimgaeul/Manipulation.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box9 {
+    background: url("../images/kimgaeul/Shore.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+main .artist1 .box10 {
+    background: url("../images/kimgaeul/us.jpg") no-repeat center / cover;
+    background-size: 200%;
+}
+
+main .artist1 .artwork > a:hover .box {
+    background-size: 210%;
+}
+
+main .artist1 .artwork > a:hover .box1 {
+    background-size: 260%;
+}
+
+
+main .artist2 .box1 {
+    background: url("../images/kimeunji/Aperture\,Interval.jpg") no-repeat center / cover;
+    background-size: 180%;
+}
+main .artist2 .box2 {
+    background: url("../images/kimeunji/Crowd.jpg") no-repeat center / cover;
+    background-size: 180%;
+}
+main .artist2 .box3 {
+    background: url("../images/kimeunji/Crowd-2.jpg") no-repeat center / cover;
+    background-size: 180%;
+}
+main .artist2 .box4 {
+    background: url("../images/kimeunji/Infection_series.jpg") no-repeat center / cover;
+    background-size: 180%;
+}
+main .artist2 .box5 {
+    background: url("../images/kimeunji/Infection.jpg") no-repeat center / cover;
+    background-size: 180%;
+}
+
+main .artist2 .artwork > a:hover .box {
+    background-size: 190%;
+}
+
+
+main .artist3 .box1 {
+    background: url("../images/shimmihye/Fresh-coming-out.png") no-repeat center / cover;
+    background-size: 120%;
+}
+main .artist3 .box2 {
+    background: url("../images/shimmihye/We_are_now_living_in_STOP_ASIAN_HATE.png") no-repeat center / cover;
+    background-size: 120%;
+}
+main .artist3 .box3 {
+    background: url("../images/shimmihye/Sunflower_Seed_Humans_and_rat_cubs.png") no-repeat center / cover;
+    background-size: 120%;
+}
+main .artist3 .box4 {
+    background: url("../images/shimmihye/Hey\,avocado_man.png") no-repeat center / cover;
+    background-size: 120%;
+}
+main .artist3 .box5 {
+    background: url("../images/shimmihye/its_just_a_skin_tone\,you_idiot.png") no-repeat center / cover;
+    background-size: 120%;
+}
+
+main .artist3 .artwork > a:hover .box {
+    background-size: 130%;
+}
+
+main .artist4 .box1 {
+    background: url("../images/leejiyoung/flow_w.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+main .artist4 .box2 {
+    background: url("../images/leejiyoung/flow_y.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+main .artist4 .box3 {
+    background: url("../images/leejiyoung/flow_g.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+main .artist4 .box4 {
+    background: url("../images/leejiyoung/flow_p.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+main .artist4 .box5 {
+    background: url("../images/leejiyoung/flow_b.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+
+main .artist4 .artwork > a:hover .box {
+    background-size: 140%;
+}
+
+
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+
+}
+
+/* mobile */
+
+@media screen and (max-width:700px) {
+
+}
