@@ -1,0 +1,593 @@
+@charset "UTF-8";
+
+/* pc */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'leferi', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    padding-top: 7vw;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* popup */
+
+#divpop {
+    position: fixed;
+    right: 15%;
+    top: 25%;
+    z-index: 99;
+    visibility: hidden;
+}
+
+#divpop table {
+    width: 16vw;
+    height: 20vw;
+}
+
+#divpop table .text {
+    height: 90%;
+    background-color: #fff;
+    border: #000 1px solid;
+}
+#divpop table .text p {
+    font-size: 0.9vw;
+}
+#divpop table .text a {
+    color: #000;
+    border-bottom: #000 1px solid;
+    font-size: 0.8vw;
+    transition: all 0.3s;
+}
+#divpop table .text a:hover {
+    color: #555;
+}
+
+#divpop input {
+    display: none;
+}
+
+#divpop b {
+    font-size: 2vw;
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 1vw;
+}
+
+
+/* up */
+
+#up a {
+    position: fixed;
+    font-size: 2.4vw;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 100%;
+    bottom: 3%;
+    right: 2%;
+    z-index: 9;
+    transition: all 0.3s;
+}
+
+#up a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* header */
+
+header {
+    font-weight: lighter;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+    height: 6vw;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > a {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 16vw;
+    padding-top: 0.8vw;
+    margin-left: 7.2vw;
+}
+
+/* gnb */
+
+header #gnb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    list-style: none;
+    margin-right: 38vw;
+    padding: 0;
+}
+header #gnb a {
+    font-size: 1vw;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+header #gnb a:hover {
+    font-weight: bold;
+    font-size: 1.2vw;
+    opacity: 1;
+}
+
+/* menu */
+
+#menu {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+#menu img {
+    width: 6vw;
+    margin-right: 7.2vw;
+    padding-top: 0.4vw;
+}
+
+hr {
+    background-color: transparent;
+    border-top: 1px solid #000;
+    margin: 2vw 0;
+}
+
+/* sidenav */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: all 0.3s;
+    padding-top: 3vw;
+    text-align: left;
+    border-left: #000 1px solid;
+}
+
+.sidenav a {
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 1vw;
+    color: #000;
+    display: block;
+    transition: all 0.2s;
+    margin-left: 0.4vw;
+    text-transform: capitalize;
+}
+.sidenav a:hover {
+    color: #555;
+}
+
+.sidenav #top {
+    margin-top: 8vw;
+}
+
+.sidenav .sign {
+    display: flex;
+    position: absolute;
+    top: 6vw;
+    left: 0;
+    width: 100%;
+}
+.sidenav .sign a {
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+}
+.sidenav .sign a:last-child {
+    border-left: #000 1px solid;
+}
+
+.sidenav .sign a:hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0.4vw;
+    font-size: 2.6vw;
+}
+.sidenav .closebtn:hover {
+    color: #555;
+    font-size: 2.6vw;
+}
+
+@media screen and (max-height: 10vw) {
+    .sidenav {
+        padding-top: 1vw;
+    }
+    .sidenav a {
+        font-size: 2.6vw;
+    }
+}
+
+/* main */
+main {
+    margin: 0 12vw;
+}
+
+/* footer */
+
+footer {
+    padding-top: 4vw;
+    text-align: left;
+    padding-left: 8vw;
+    margin-top: 10vw;
+    position: relative;
+    border-top: #000 1px solid;
+    padding-bottom: 3.4vw;
+}
+footer .company a {
+    width: 4vw;
+    font-size: 0.9vw;
+}
+footer .company .menu {
+    display: flex;
+    flex-flow: column;
+}
+footer .company p {
+    font-weight: bold;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+}
+footer .company .menu a {
+    margin-bottom: 0.4vw;
+}
+
+footer a {
+    transition: all 0.3s;
+}
+footer a:hover {
+    color: #555;
+}
+
+footer .info {
+    position: absolute;
+    top: 4vw;
+    left: 28vw;
+}
+footer .info p {
+    line-height: 2;
+}
+
+footer .footer_menu {
+    margin-top: 2vw;
+}
+footer .footer_menu a {
+    font-size: 0.8vw;
+}
+footer .footer_menu span {
+    margin: 0 0.3vw;
+    font-size: 1vw;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8vw;
+}
+footer a {
+    font-size: 0.8vw;
+}
+
+footer > p {
+    font-size: 0.7vw;
+    margin-top: 1.4vw;
+    color: #555;
+}
+
+footer .sns {
+    position: absolute;
+    right: 8vw;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 3vw;
+    height: 3vw;
+
+}
+footer .sns a:first-child {
+    width: 2.8vw;
+    height: 2.8vw;
+    background: url("../images/instagram.png") no-repeat 100% center / cover;
+}
+footer .sns a:last-child {
+    width: 2.8vw;
+    height: 2.8vw;
+    margin-left: 1.0vw;
+    background: url("../images/facebook.png") no-repeat 100% center / cover;
+}
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+    body {
+        padding-top: 12vw;
+    }
+
+    /* header */
+    header {
+        height: 10vw;
+    }
+    header #gnb {
+        width: 40vw;
+        margin-right: 22vw;
+    }
+    header #gnb a {
+        font-size: 2.4vw;
+    }
+    header img {
+        width: 24vw;
+        padding-top: 1vw;
+    }
+    header #gnb a:hover {
+        font-weight: bold;
+        font-size: 2.5vw;
+    }
+
+    /* up */
+    #up a {
+        font-size: 4vw;
+    }
+
+    /* menu */
+    #menu img {
+        width: 10vw;
+    }
+
+    /* sidenav */
+    .sidenav a {
+        font-size: 2vw;
+        padding: 2vw;
+    }
+    .sidenav .sign {
+        top: 10vw;
+    }
+    .sidenav #top {
+        margin-top: 16vw;
+    }
+    .sidenav .closebtn {
+        font-size: 6vw;
+    }
+    .sidenav .closebtn:hover {
+        font-size: 6vw;
+    }
+
+    /* footer */
+    footer .company a {
+        width: 6vw;
+    }
+    footer .sns {
+        bottom: 4vw;
+    }
+    footer .sns a:first-child {
+        width: 4vw;
+        height: 4vw;
+    }
+    footer .sns a:last-child {
+        width: 4vw;
+        height: 4vw;
+        margin-left: 1.4vw;
+    }
+    footer .footer_menu {
+        margin-top: 3vw;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:700px) {
+    body {
+        padding-top: 22vw;
+    }
+    /* header */
+    header {
+        height: 20vw;
+    }
+    header #gnb {
+        width: 44vw;
+        margin-right: 18vw;
+    }
+    header #gnb a {
+        font-size: 3.4vw;
+    }
+    header img {
+        width: 32vw;
+        padding-top: 3vw;
+        margin-left: 3vw;
+    }
+    header #gnb a:hover {
+        font-weight: bold;
+        font-size: 3.5vw;
+    }
+    /* up */
+    #up a {
+        font-size: 6vw;
+    }
+
+    /* menu */
+    #menu img {
+        width: 14vw;
+        margin-right: 3vw;
+    }
+
+    /* sidenav */
+    .sidenav a {
+        font-size: 3.6vw;
+        padding: 3vw;
+    }
+    .sidenav .sign {
+        top: 20vw;
+    }
+    .sidenav #top {
+        margin-top: 30vw;
+    }
+    .sidenav .closebtn {
+        padding: 6vw 4vw;
+        font-size: 8vw;
+    }
+    .sidenav .closebtn:hover {
+        font-size: 8vw;
+    }
+
+    /* footer */
+    footer .company a {
+        width: 10vw;
+
+    }
+    footer .sns {
+        bottom: 6vw;
+    }
+    footer .info {
+        margin-right: 8vw;
+        left: 30vw;
+    }
+    footer .sns a:first-child {
+        width: 6vw;
+        height: 6vw;
+    }
+    footer .sns a:last-child {
+        width: 6vw;
+        height: 6vw;
+        margin-left: 1.4vw;
+    }
+    footer .footer_menu {
+        margin-top: 16vw;
+    }
+}
+
+/* profile css */
+
+main .sider {
+    width: 35%;
+}
+main .sider .img {
+    width: 70%;
+    height: 26vw;
+}
+main .sider p {
+    width: 70%;
+    display: inline-block;
+    line-height: 1.6;
+    font-size: 0.8vw;
+    margin: 0 0 1.4vw;
+    color: #555;
+}
+main .sider h2 {
+    font-size: 1.6vw;
+    font-weight: bold;
+    margin: 0;
+    padding: 2vw 0;
+}
+main .sider .btn {
+    font-size: 1vw;
+    font-weight: bold;
+    margin-top: 1.4vw;
+}
+main .sider a {
+    margin-right: 1.2vw;
+    border: 1px solid #000;
+    padding: 0.5vw 0.8vw;
+}
+main .sider a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+main .container {
+    width: 65%;
+}
+
+main .container .video {
+    height: 30vw;
+    background-color: #ddd;
+    margin-bottom: 5vw;
+}
+main .container .video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+main .container .interview .q {
+    margin-bottom: 4vw;
+}
+main .container .interview .q h3 {
+    font-size: 1.4vw;
+}
+main .container .interview .q p {
+    font-size: 1vw;
+    line-height: 1.8;
+}
+
+main .container .work {
+    display: flex;
+    flex-wrap: wrap;
+}
+main .container .work .box {
+    margin: 0 1vw;
+    width: 25.3vw;
+    height: 32vw;
+    margin-bottom: 2vw;
+    position: relative;
+}
+main .container .work .box .text {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 99;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+main .container .work .box .text:hover {
+    opacity: 1;
+}
+main .container .work .box .text span {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}

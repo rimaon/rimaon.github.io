@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Gmarket';
+    src: url(../font/GmarketSansBold.otf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Gmarket';
+    src: url(../font/GmarketSansLight.otf) format('truetype');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'Gmarket';
+    src: url(../font/GmarketSansMedium.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'leferi';
+    src: url(../font/LeferiBaseBold.otf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'leferi';
+    src: url(../font/LeferiBaseRegular.otf) format('truetype');
+    font-weight: normal;
+}
+
+/* 제목 후보 */
+@font-face {
+    font-family: 'eulyoo1945';
+    src: url(../font/Eulyoo1945-Regular.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'hahmlet';
+    src: url(../font/Hahmlet-Medium.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'BareunDotum';
+    src: url(../font/BareunDotumOTFPro1.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'HS봄바람체';
+    src: url(../font/HS봄바람체2.0.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Cafe24Dangdanghae';
+    src: url(../font/Cafe24Dangdanghae.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'J송명';
+    src: url(../font/J송명-Regular.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'KITA';
+    src: url(../font/KITA.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'YUniverse';
+    src: url(../font/YUniverse-B.otf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: '빛고을광주';
+    src: url(../font/빛고을광주_Light.otf) format('truetype');
+    font-weight: normal;
+}

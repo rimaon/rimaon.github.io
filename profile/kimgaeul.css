@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    margin: 0 8vw;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vw;
+}
+
+main .sider .img {
+    background: url("../images/kimgaeul/profile.jpg") no-repeat 100% / cover;
+}
+
+main .container .work .box1 {
+    background: url("../images/kimgaeul/circulation.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box2 {
+    background: url("../images/kimgaeul/pearls.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box3 {
+    background: url("../images/kimgaeul/respiration.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box4 {
+    background: url("../images/kimgaeul/win-win.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box5 {
+    background: url("../images/kimgaeul/electrodeposition.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box6 {
+    background: url("../images/kimgaeul/cells.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box7 {
+    background: url("../images/kimgaeul/lump.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box8 {
+    background: url("../images/kimgaeul/Manipulation.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box9 {
+    background: url("../images/kimgaeul/Shore.jpg") no-repeat center 100%  / cover;
+}
+main .container .work .box10 {
+    background: url("../images/kimgaeul/us.jpg") no-repeat center 100%  / cover;
+}
+
+/* mobile */
+
+@media screen and (max-width:700px) {
+
+    main .sider {
+        width: 100%;
+        position: relative;
+        margin: 0;
+    }
+    main .sider .img {
+        width: 26vw;
+        height: 38vw;
+        background: url("../images/kimgaeul/profile.jpg") no-repeat center 0 / cover;
+        background-size: 120%;
+    }
+    main .sider p {
+        position: absolute;
+        top: 6vw;
+        left: 32vw;
+        width: 64%;
+        height: 32vw;
+        overflow: scroll;
+    }
+    main .sider h2 {
+        position: absolute;
+        top: 0;
+        left: 32vw;
+        padding: 0;
+        font-size: 3vw;
+    }
+    main .sider .btn {
+        font-size: 1.6vw;
+        margin-top: 6vw;
+    }
+    main .sider a {
+        margin-right: 1.6vw;
+        padding: 1vw 1.4vw;
+    }
+    main .sider a:hover {
+        background-color: #000;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    main .container {
+        width: 100%;
+        margin-top: 20vw;
+    }
+    main .container .video {
+        height: 50vw;
+        background-color: #ddd;
+    }
+
+    main .container .interview {
+       margin: 10vw 0;
+    }
+    main .container .interview .q h3 {
+        font-size: 2.6vw;
+    }main .container .interview .q p {
+        font-size: 2vw;
+    }
+
+    main .container .work .box {
+        width: 40vw;
+        height: 52vw;
+        margin-bottom: 4vw;
+    }
+}

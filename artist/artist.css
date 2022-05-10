@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    margin: 6vw 7vw 0;
+    text-align: left;
+}
+
+main .artist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .artist > a {
+    margin: 0 1vw 5vw;
+    transition: all 0.3s;
+    outline: rgba(0, 0, 0, 0.1) 1px solid;
+    position: relative;
+}
+
+main .artist > a:hover {
+    box-shadow: 0 0 1.6vw hsla(0, 0%, 0%, 0.3);
+    margin: 0 1vw 5vw;
+    outline: none;
+}
+
+main .box {
+    width: 19.5vw;
+    height: 24vw;
+    transition: all 0.3s;
+}
+
+main .artist > a:hover .box {
+    background-size: 110%;
+}
+
+main .artist h2 {
+    font-size: 1.2vw;
+    margin-left: 1vw;
+}
+
+main .artist span {
+    font-size: 0.7vw;
+    padding: 0.4vw 0.8vw;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    right: 1vw;
+    bottom: 1vw;
+}
+
+main .box1 {
+    background: url("../images/kimgaeul/profile.jpg") no-repeat center / cover;
+    background-size: 105%;
+}
+main .box2 {
+    background: url("../images/kimseulgi/profile.jpg") no-repeat center / cover;
+    background-size: 105%;
+}
+main .box3 {
+    background: url("../images/kimeunji/profile.jpg") no-repeat center / cover;
+    background-size: 310%;
+}
+main .artist > a:hover .box3 {
+    background-size: 320%;
+    transition: 0.3s;
+}
+main .box4 {
+    background: url("../images/shimmihye/profile.jpg") no-repeat center / cover;
+    background-size: 105%;
+}
+main .box5 {
+    background: url("../images/leejiyoung/profile.jpg") no-repeat center / cover;
+    background-size: 105%;
+}
+main .box6 {
+    background: url("../images/leehanna/profile.jpg") no-repeat center / cover;
+    background-size: 105%;
+}
+main .none {
+    opacity: 0;
+}
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+    main .box {
+        width: 24vw;
+        height: 30vw;
+    }
+    main .artist h2 {
+        font-size: 2vw;
+    }
+    main .artist p {
+        font-size: 1.2vw;
+    }
+
+    /* box1 */
+    main .box1 {
+        background-size: 110%;
+    }
+    main .box1:hover {
+        background-size: 120%;
+    }
+
+    /* box4 */
+    main .box4 {
+        background-size: 110%;
+    }
+    main .box4:hover {
+        background-size: 120%;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:700px) {
+    main .artist > a {
+        margin-bottom: 12vw;
+    }
+    main .box {
+        width: 40vw;
+        height: 52vw;
+    }
+    main .artist h2 {
+        font-size: 3vw;
+    }
+    main .artist p {
+        font-size: 1.2vw;
+    }
+
+    /* box3 */
+    main .box3 {
+        background-size: 320%;
+    }
+    main .box3:hover {
+        background-size: 330%;
+    }
+}

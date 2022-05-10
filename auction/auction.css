@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/* main */
+
+main {
+    margin: 0 8vw;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vw;
+}
+
+main h2 {
+    font-size: 1.1vw;
+    margin: 0.6vw 0 0.4vw;
+    display: inline-block;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0.6vw;
+}
+
+main p {
+    font-size: 0.7vw;
+    margin: 0;
+    padding-bottom: 0.6vw;
+    margin-bottom: 0.6vw;
+    border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+    padding-left: 0.6vw;
+}
+
+main span {
+    font-size: 0.7vw;
+    display: inline-block;
+    color: #555;
+    padding-left: 0.6vw;
+}
+
+/* btn */
+main .btn {
+    width: 12%;
+    margin: 0;
+    padding: 0;
+}
+
+main .btn li {
+    width: 50%;
+    list-style: none;
+    margin: 0 0 0.8vw;
+    cursor: pointer;
+    font-size: 1vw;
+    text-underline-position: under;
+}
+
+main .btn li:hover a {
+    text-decoration: underline 0.2vw;
+    font-weight: bold;
+}
+
+.on a {
+    text-decoration: underline 0.2vw;
+    font-weight: bold;
+}
+
+main .btn hr {
+    width: 80%;
+    opacity: 0.2;
+}
+
+/* project_item */
+main .project_item {
+    width: 88%;
+    display: flex;
+}
+
+main .item {
+    margin: 0 1vw;
+    width: 17.3%;
+    height: 22vw;
+    padding-bottom: 3vw;
+    margin-bottom: 2vw;
+    position: relative;
+    outline: rgba(0, 0, 0, 0.1) 1px solid;
+    transition: all 0.3s;
+}
+main .item:hover {
+    box-shadow: 0 0 1.6vw hsla(0, 0%, 0%, 0.3);
+    outline: none;
+}
+main .item:hover .img {
+    opacity: 0.6;
+}
+
+main .item hr {
+display: none;
+}
+
+main .item .img {
+    transition: all 0.3s;
+    height: 77%;
+    width: 100%;
+}
+
+main .item a img {
+    width: 1.4vw;
+    vertical-align: middle;
+    padding-bottom: 0.2vw;
+    padding-right: 0.4vw;
+    top: 0;
+    left: 0;
+}
+
+main .item1 .img {
+    background: url("../images/kimgaeul/cells.jpg") no-repeat center / cover;
+}
+
+main .item2 .img {
+    background: url("../images/kimgaeul/lump.jpg") no-repeat center / cover;
+}
+
+main .item3 .img {
+    background: url("../images/kimgaeul/Manipulation.jpg") no-repeat center / cover;
+}
+
+main .item4 .img {
+    background: url("../images/kimgaeul/Shore.jpg") no-repeat center / cover;
+}
+
+main .item5 .img {
+    background: url("../images/kimgaeul/us.jpg") no-repeat center / cover;
+}
+
+main .item6 .img {
+    background: url("../images/shimmihye/Fresh-coming-out.png") no-repeat center / cover;
+}
+
+main .item7 .img {
+    background: url("../images/shimmihye/We_are_now_living_in_STOP_ASIAN_HATE.png") no-repeat center / cover;
+}
+
+main .item8 .img {
+    background: url("../images/shimmihye/Sunflower_Seed_Humans_and_rat_cubs.png") no-repeat center / cover;
+}
+
+main .item9 .img {
+    background: url("../images/shimmihye/Hey\,avocado_man.png") no-repeat center / cover;
+}
+
+main .item10 .img {
+    background: url("../images/shimmihye/its_just_a_skin_tone\,you_idiot.png") no-repeat center / cover;
+}
+
+main .item11 .img {
+    background: url("../images/kimeunji/Aperture\,Interval.jpg") no-repeat center / cover;
+}
+main .item12 .img {
+    background: url("../images/kimeunji/Crowd.jpg") no-repeat center / cover;
+}
+main .item13 .img {
+    background: url("../images/kimeunji/Crowd-2.jpg") no-repeat center / cover;
+}
+main .item14 .img {
+    background: url("../images/kimeunji/Infection_series.jpg") no-repeat center / cover;
+}
+main .item15 .img {
+    background: url("../images/kimeunji/Infection.jpg") no-repeat center / cover;
+}
+
+main .item16 .img {
+    background: url("../images/leejiyoung/flow_w.jpg") no-repeat center / cover;
+}
+main .item17 .img {
+    background: url("../images/leejiyoung/flow_y.jpg") no-repeat center / cover;
+}
+main .item18 .img {
+    background: url("../images/leejiyoung/flow_g.jpg") no-repeat center / cover;
+}
+main .item19 .img {
+    background: url("../images/leejiyoung/flow_p.jpg") no-repeat center / cover;
+}
+main .item20 .img {
+    background: url("../images/leejiyoung/flow_b.jpg") no-repeat center / cover;
+}
+
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+    main h2 {
+        font-size: 1.6vw;
+    }
+    main span {
+        font-size: 1.2vw;
+    }
+    main .btn li {
+        font-size: 2.4vw;
+    }
+    main .item {
+        width: 30%;
+        height: 36vw;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:700px) {
+    main h2 {
+        font-size: 3vw;
+    }
+
+    main span {
+        font-size: 2vw;
+    }
+
+    /* menu */
+    main .btn {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 6vw;
+    }
+
+    main .btn li {
+        display: inline;
+    }
+
+    main .btn li a {
+        padding: 1vw 1.6vw;
+        font-size: 2.4vw;
+        border: 1px solid #000;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+
+    main .btn li:hover a {
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .on a {
+        background-color: #000;
+        color: #fff;
+    }
+
+    main .project_item {
+        width: 100%;
+    }
+
+    main .item {
+        width: 47.7%;
+        height: 66vw;
+    }
+}
