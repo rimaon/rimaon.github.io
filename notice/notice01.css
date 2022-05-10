@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+/* pc */
+
+/* main */
+main {
+    margin: 0 8vw;
+    text-align: justify;
+    position: relative;
+}
+
+main img {
+    width: 100%;
+
+}
+
+main a {
+    border: 0.3vw solid #001335;
+    transition: 0.3s;
+    color: #001335;
+    padding: 2vw 3vw 1.9vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 7%;
+    font-size: 2.4vw;
+    font-weight: bold;
+    font-family: 'Gmarket';
+}
+main a:hover {
+    background-color: #001335;
+    color: #fff;
+}
+
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+    main span {
+        font-size: 1.6vw;
+    }
+    /* box1 */
+    main .box1 {
+        background: url("images/img01_t.jpg") no-repeat center / cover;
+    }
+    main .box1 strong {
+        font-size: 4vw;
+    }
+    main .box1 span {
+        width: 100%;
+        font-size: 2vw;
+    }
+}

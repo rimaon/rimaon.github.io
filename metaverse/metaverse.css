@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    margin: 0 8vw;
+}
+
+main .artist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5vw;
+}
+main .box {
+    width: 40vw;
+    height: 26vw;
+}
+
+main .artist > a {
+    margin-bottom: 8vw;
+}
+main .box:hover {
+    background-size: 110%;
+    transition: 0.3s;
+}
+main .artist h2 {
+    font-size: 1.4vw;
+    text-align: left;
+    margin-bottom: 0.5vw;
+}
+main .artist p {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9vw;
+}
+
+main .box1 {
+    background: url("../images/kimgaeul/profile.jpg") no-repeat center / cover;
+}
+main .box2 {
+    background: url("../images/kimseulgi/profile.jpg") no-repeat center 0 / cover;
+}
+main .box3 {
+    background: url("../images/kimeunji/profile.jpg") no-repeat center / cover;
+    background-size: 300%;
+}
+main .box4 {
+    background: url("../images/shimmihye/profile.jpg") no-repeat center / cover;
+}
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+    main .box {
+        width: 24vw;
+        height: 30vw;
+    }
+    main .artist h2 {
+        font-size: 2vw;
+    }
+    main .artist p {
+        font-size: 1.2vw;
+    }
+
+    /* box1 */
+    main .box1 {
+        background-size: 110%;
+    }
+    main .box1:hover {
+        background-size: 120%;
+    }
+
+    /* box4 */
+    main .box4 {
+        background-size: 110%;
+    }
+    main .box4:hover {
+        background-size: 120%;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:700px) {
+    main .artist > a {
+        margin-bottom: 12vw;
+    }
+    main .box {
+        width: 40vw;
+        height: 52vw;
+    }
+    main .artist h2 {
+        font-size: 3vw;
+    }
+    main .artist p {
+        font-size: 1.2vw;
+    }
+
+    /* box3 */
+    main .box3 {
+        background-size: 320%;
+    }
+    main .box3:hover {
+        background-size: 330%;
+    }
+}
