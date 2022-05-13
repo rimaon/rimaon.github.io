@@ -225,49 +225,52 @@ header {
 
 /* work .box1 */
 #fullpage .box3 .work .box1 {
-    background: url("images/kimgaeul/cells.jpg") no-repeat center / cover;
-    background-size: 200%;
+    background: url("images/kimgaeul/circulation.jpg") no-repeat center / cover;
+    background-size: 300%;
+}
+#fullpage .box3 .work .box1:hover {
+    background-size: 310%;
 }
 
 /* work .box2 */
 #fullpage .box3 .work .box2 {
-    background: url("images/kimgaeul/lump.jpg") no-repeat center / cover;
+    background: url("images/kimgaeul/pearls.jpg") no-repeat center / cover;
     background-size: 200%;
 }
 
 /* work .box3 */
 #fullpage .box3 .work .box3 {
-    background: url("images/kimgaeul/Manipulation.jpg") no-repeat center / cover;
+    background: url("images/shimmihye/its_just_a_skin_tone\,you_idiot.png") no-repeat center / cover;
     background-size: 200%;
 }
 
 /* work .box4 */
 #fullpage .box3 .work .box4 {
-    background: url("images/kimgaeul/Shore.jpg") no-repeat center / cover;
+    background: url("images/kimeunji/Crowd-2.jpg") no-repeat center / cover;
     background-size: 200%;
 }
 
 /* work .box5 */
 #fullpage .box3 .work .box5 {
-    background: url("images/kimgaeul/us.jpg") no-repeat center / cover;
+    background: url("images/kimgaeul/electrodeposition.jpg") no-repeat center / cover;
     background-size: 200%;
 }
 
 /* work .box6 */
 #fullpage .box3 .work .box6 {
-    background: url("images/kimeunji/Aperture\,Interval.jpg") no-repeat center / cover;
+    background: url("images/shimmihye/Fresh-coming-out.png") no-repeat center / cover;
     background-size: 200%;
 }
 
 /* work .box7 */
 #fullpage .box3 .work .box7 {
-    background: url("images/kimeunji/Crowd.jpg") no-repeat center / cover;
+    background: url("images/leejiyoung/flow_w.jpg") no-repeat center / cover;
     background-size: 200%;
 }
 
 /* work .box8 */
 #fullpage .box3 .work .box8 {
-    background: url("images/kimeunji/Crowd-2.jpg") no-repeat center / cover;
+    background: url("images/kimeunji/Aperture\,Interval.jpg") no-repeat center / cover;
     background-size: 200%;
 }
 
@@ -402,7 +405,7 @@ header {
 
     /* menu */
     #menu img {
-        width: 5.4vw;
+        width: 10vw;
         transition: all 1s;
     }
 
@@ -471,7 +474,7 @@ header {
 
     /* menu */
     #menu img {
-        width: 7vw;
+        width: 14vw;
     }
 
     /* footer */

@@ -27,12 +27,20 @@ a {
     color: #000;
 }
 
+li,
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* popup */
 
 #divpop {
     position: fixed;
-    right: 15%;
-    top: 25%;
+    right: 20%;
+    top: 28%;
     z-index: 99;
     visibility: hidden;
 }
@@ -71,7 +79,6 @@ a {
     top: 0;
     right: 1vw;
 }
-
 
 /* up */
 
@@ -126,11 +133,17 @@ header #gnb {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 20vw;
+    width: 26vw;
     list-style: none;
-    margin-right: 38vw;
+    margin-right: 35vw;
     padding: 0;
 }
+
+header #gnb > li {
+    display: inline-block;
+    position: relative;
+}
+
 header #gnb a {
     font-size: 1vw;
     opacity: 0.8;
@@ -347,8 +360,8 @@ footer .sns a:last-child {
         height: 10vw;
     }
     header #gnb {
-        width: 40vw;
-        margin-right: 22vw;
+        width: 42vw;
+        margin-right: 21vw;
     }
     header #gnb a {
         font-size: 2.4vw;
@@ -360,6 +373,30 @@ footer .sns a:last-child {
     header #gnb a:hover {
         font-weight: bold;
         font-size: 2.5vw;
+    }
+
+    /* popup */
+
+    #divpop {
+        right: 15%;
+        top: 30%;
+    }
+
+    #divpop table {
+        width: 30vw;
+        height: 40vw;
+    }
+
+    #divpop table .text p {
+        font-size: 1.8vw;
+    }
+    #divpop table .text a {
+        font-size: 1.5vw;
+    }
+
+    #divpop b {
+        font-size: 4.8vw;
+        right: 2vw;
     }
 
     /* up */
@@ -422,23 +459,41 @@ footer .sns a:last-child {
         height: 20vw;
     }
     header #gnb {
-        width: 44vw;
-        margin-right: 18vw;
+        width: 48vw;
+        margin-right: 19vw;
     }
     header #gnb a {
-        font-size: 3.4vw;
+        font-size: 3vw;
     }
     header img {
-        width: 32vw;
+        width: 28vw;
         padding-top: 3vw;
         margin-left: 3vw;
     }
     header #gnb a:hover {
         font-weight: bold;
-        font-size: 3.5vw;
+        font-size: 3.1vw;
     }
     /* up */
     #up a {
+        font-size: 6vw;
+    }
+
+    /* popup */
+
+    #divpop table {
+        width: 50vw;
+        height: 65vw;
+    }
+
+    #divpop table .text p {
+        font-size: 3.8vw;
+    }
+    #divpop table .text a {
+        font-size: 3.4vw;
+    }
+
+    #divpop b {
         font-size: 6vw;
     }
 
