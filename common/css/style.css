@@ -532,10 +532,6 @@ footer .sns a:first-child {
     footer .sns a:first-child {
         width: 6vw;
         height: 6vw;
-    }
-    footer .sns a:last-child {
-        width: 6vw;
-        height: 6vw;
         margin-left: 1.4vw;
     }
     footer .footer_menu {
