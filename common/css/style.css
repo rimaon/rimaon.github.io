@@ -342,6 +342,12 @@ footer .sns a:first-child {
     margin-left: 1.0vw;
     background: url("../images/instagram.png") no-repeat 100% center / cover;
 }
+footer .sns a:last-child {
+    width: 2.8vw;
+    height: 2.8vw;
+    margin-left: 1.0vw;
+    background: url("../images/instagram.png") no-repeat 100% center / cover;
+}
 
 /* tablet */
 
@@ -432,6 +438,7 @@ footer .sns a:first-child {
     footer .sns a:first-child {
         width: 4vw;
         height: 4vw;
+        margin-left: 1.4vw;
     }
     footer .sns a:last-child {
         width: 4vw;
@@ -530,6 +537,11 @@ footer .sns a:first-child {
         left: 30vw;
     }
     footer .sns a:first-child {
+        width: 6vw;
+        height: 6vw;
+        margin-left: 1.4vw;
+    }
+    footer .sns a:last-child {
         width: 6vw;
         height: 6vw;
         margin-left: 1.4vw;
